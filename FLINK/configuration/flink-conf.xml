@@ -15,6 +15,18 @@
    limitations under the License.
 -->
 <configuration supports_adding_forbidden="true">
+       <property>
+        <name>flink_dir_name</name>
+        <value>flink-1.14.5</value>
+        <display-name>Flink Version</display-name>
+        <description>Flink Version</description>
+    </property>
+    <property>
+        <name>stack_version</name>
+        <value>3.1.5.0-152</value>
+        <display-name>HDP Stack Version</display-name>
+        <description>HDP Stack Version</description>
+    </property>
     <property>
         <name>flink_download_url</name>
         <value>DOWNLOAD_PROM_REPO</value>
